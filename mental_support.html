@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mental Support</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .consult-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 16px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .consult-btn:hover {
+            background-color: #45a049;
+        }
+        #mental-health-panel {
+            display: none;
+            margin-top: 200px;
+            border: 1px solid #ccc;
+            padding: 100px;
+            border-radius: 100px;
+            background-color: #1fbadd;
+
+        }
+       
+        
+    </style>
+</head>
+<body>
+
+    <h2>Welcome to Mental Health Support</h2>
+    
+    <!-- Mental Health Button -->
+<button id="mentalHealthBtn">🧠 Mental Health Check</button>
+
+<!-- Hidden Panel -->
+<div id="mental-health-panel" style="display: none; border: 1px solid #ccc; padding: 15px; margin-top: 10px;">
+    <h3>Mental Health Assessment</h3>
+
+    <label for="stress-level">How stressed are you?</label>
+    <select id="stress-level">
+        <option value="low">Low</option>
+        <option value="moderate">Moderate</option>
+        <option value="high">High</option>
+    </select><br><br>
+
+    <label for="sleep-trouble">Are you having trouble sleeping?</label>
+    <select id="sleep-trouble">
+        <option value="no">No</option>
+        <option value="yes">Yes</option>
+    </select><br><br>
+
+    <label for="need-support">Do you feel you need support?</label>
+    <select id="need-support">
+        <option value="no">No</option>
+        <option value="yes">Yes</option>
+    </select><br><br>
+
+    <button onclick="submitMentalAssessment()">Submit</button>
+    <!-- Original -->
+
+    <!-- Better -->
+    <div id="mental-health-panel">
+    
+</div>
