@@ -1,0 +1,25 @@
+message,intent,language
+I have a fever,fever,english
+Mujhe bukhar hai,fever,hindi
+Bhai bukhar ho gaya hai,fever,hinglish
+I am having a cold,cold,english
+Mujhe sardard aur sardi hai,cold,hindi
+Bhai sardi lag rahi hai,cold,hinglish
+I am coughing a lot,cough,english
+Mujhe bahut khansi ho rahi hai,cough,hindi
+Khansi bahut jyada ho rahi hai na,cough,hinglish
+My throat is sore,sore_throat,english
+Mere gale mein dard hai,sore_throat,hindi
+Gala kharab hai yaar,sore_throat,hinglish
+I have a headache,headache,english
+Mujhe sar mein dard hai,headache,hindi
+Sar dard ho raha hai yaar,headache,hinglish
+I am vomiting,vomiting,english
+Mujhe ulti ho rahi hai,vomiting,hindi
+Ulti aa rahi hai bhai,vomiting,hinglish
+I have multiple symptoms,symptoms,english
+Mujhe kai tarah ke lakshan hai,symptoms,hindi
+Alag alag symptoms dikh rahe hain,symptoms,hinglish
+I don't feel well,default,english
+Main thik mehsoos nahi kar raha,default,hindi
+Thoda ajeeb lag raha hai,default,hinglish
