@@ -1,0 +1,23 @@
+# Jarvis Health – AI Voice-Enabled Symptom-Checker 🤖💊
+
+![Build](https://github.com/VARISHAKHAN123/chatbot/actions/workflows/tests.yml/badge.svg)
+![License](https://img.shields.io/github/license/VARISHAKHAN123/chatbot)
+
+**Why?** Early triage in rural India <60 s  
+**Tech**: Python | Flask | spaCy | ML (scikit-learn) | MySQL
+
+## ✨ Demo (30 s GIF)
+
+## Features
+- 🔊 **Voice & Text** (Hindi + English)
+- 🏥 80 + symptom entities → 10 disease predictors (diabetes/heart/…)
+- 👩‍⚕️ Doctor-finder by district
+- 🗄️ Stores chat & vitals in MySQL
+
+## Quick start
+```bash
+git clone https://github.com/VARISHAKHAN123/chatbot.git
+cd chatbot
+python -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+FLASK_ENV=development python app.py
